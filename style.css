@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Radio Canada", sans-serif;
+}
+p, h1{
+  font-family: Source Sans Pro;
+  
+}
+
+.whole{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 50%;
+  margin-left: 50%; */
+  border: 2px solid black;
+  height: 600px;
+  width: 500px;
+  margin-left: 33%;
+  margin-top: 4%;
+  background-color: #ffffff89;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: -3px -3px 56px 4px #000000;
+}
+
+body {
+  background-image: url(https://imgs.search.brave.com/lkFabJQb9dI0nV4kUiAfdKrqF8-0ueY6gBV9ndLKRKc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMjA3/ODk4OC5qcGc);
+  background-color: white;
+  z-index: 1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 35px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 75px;
+  margin: 2px;
+  width: 75px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  opacity: 70%;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+  opacity: 30%;
+}
+
+.btn:disabled {
+  color: black;
+  cursor: no-drop;
+}
+
+.result-own{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid;   
+  width: 40%;
+  box-shadow: 0px 0px 116px 29px #918e8e ;
+  box-shadow: 0px 0px 116px 29px #918e8e ins;
+/* 00360021 */
+}
+
+.reset {
+  text-align: center;
+}
+
+#reset {
+  
+  border: 1px solid black;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 17px;
+  margin: 35px;
+  transition: all 0.1s ease-in-out;
+}
+
+#reset:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.515);
+  /* transform: translate(0, -20px); */
+}
+
+/* .resethover{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rebeccapurple;
+  height: 25px;
+  width: 90px;
+  transform: translate(434px,65px);
+} */
